@@ -22,6 +22,13 @@ module.exports = {
         loader: "babel-loader",
       },
       {
+        loader: "eslint-loader",
+        options: {
+          fix: false,
+          failOnError: true,
+        },
+      },
+      {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/,
         type: "asset",
       },

@@ -1,4 +1,4 @@
-import Test from "./module/test";
+import Test from './module/test';
 
 global.test = () => {
   const test = new Test();
